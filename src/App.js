@@ -14,7 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             {
-              user && user._id ? <Homepage setLoginUser={setLoginUser} /> : <Login setLoginUser={setLoginUser}/>
+              user && user._id ? <Homepage  setLoginUser={setLoginUser} /> : <Login setLoginUser={setLoginUser}/>
             }
           </Route>
           <Route path="/login">
